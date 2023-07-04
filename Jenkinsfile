@@ -7,7 +7,7 @@ pipeline {
         stage('cloning') {
             steps {
                 script {
-                    cloning("https://github.com/AkshayDurgade/Jenkins.git", "main")
+                    clone("https://github.com/AkshayDurgade/Jenkins.git", "main")
                 }
             }
         }
